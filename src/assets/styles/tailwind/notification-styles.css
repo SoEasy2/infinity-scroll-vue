@@ -1,0 +1,19 @@
+.vue-notification-group {
+	@apply min-w-75 max-w-87.5;
+}
+
+.vue-notification-group .vue-notification-wrapper {
+	@apply pb-2.5;
+}
+
+.vue-notification-wrapper .vue-notification-template {
+	@apply m-0 border-none rounded-1.25 px-5 py-2.5;
+}
+
+.vue-notification-template .notification-content {
+	@apply text-sm  font-medium;
+}
+
+.vue-notification-template.info-bg {
+	@apply bg-blue-50 text-white;
+}

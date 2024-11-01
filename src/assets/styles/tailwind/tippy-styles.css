@@ -1,0 +1,9 @@
+@import 'tippy.js/dist/tippy.css';
+
+.tippy-box .tippy-content {
+	padding: 0;
+}
+
+.tippy-box[data-theme~='default'] {
+	@apply p-2.5 rounded-1.25 bg-blue/95 text-white text-xs;
+}
