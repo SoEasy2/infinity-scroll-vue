@@ -75,3 +75,12 @@ To start the development server with npm, run the following command in your term
 
 ```bash
 npm run dev
+```
+
+#### Using Docker
+
+To start the development server with Docker, ensure you have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed. Then, run the following command in your terminal:
+
+```bash
+docker-compose up
+```
